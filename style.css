@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    font-family: roboto,sans-serif;
+}
+.nav {
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+    /* border-image: linear-gradient(to right,green,lightgreen); */
+    border-bottom: 10px solid rgb(24, 82, 24);
+}
+.image {
+    text-align: center;
+}
+
+.name {
+    color: white;
+    
+    margin-left: 30px;
+    
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+li {
+    list-style-type: none;
+    
+}
+.move {
+    margin-right: 50px;
+    border: 2px solid white;
+    height: 30px;
+    width: 150px;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.move:hover {
+    border: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+ .dem {
+    background-color: green;
+    color: white;
+    
+    height: 50px;
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+    
+    /* padding-top: 100px; */
+} 
+.world {
+    margin-top: 10px;
+}
+.hero {
+    background-image: url(pexels-cup-of-couple-6177607.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 630px;
+    margin-top: 1px;
+    color: black;
+    text-align: center;
+    /* margin-top: 30px;
+     */
+     word-wrap: break-word;
+     
+}
+.together {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.story {
+    padding: 70px;
+    
+    
+}
+.mode {
+    border-radius: 30px;
+}
+.mod {
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.md {
+    border-radius: 30px;
+    margin-right: 15px;
+}
+.mo {
+    padding: 30px;
+}
+.fl {
+    color: white;
+}
+.afterhero {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 650px;
+    width: 100vw;
+}
+.word {
+    margin-top: 90px;
+}
+.green {
+    color: green;
+}
+.moe {
+    padding-top:120px;
+}
+.section {
+    height: 600px;
+    width: 100vw;
+display: flex;
+    
+    
+}
+.words {
+    background-color: black;
+    word-break: break-all;
+    text-align: center;
+    color: white;
+    height: 750px;
+}
+.articles {
+    height: 1200px;
+
+    width: 100vw;
+    background-color: indigo ;
+}
+.tog {
+    padding-top: 300px;
+}
+.bal {
+    margin-bottom: -300px;
+}
+.bol {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.section {
+    background-image: linear-gradient(to bottom,red,yellow,green);
+    display: flex;
+   
+    flex-direction: column;
+}
+
+@keyframes slideup {
+    0% {
+        margin-top: 500px;
+    }
+
+}
+.skills {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    display: inline;
+    word-spacing: 10px;
+}
+.cate {
+    margin-left: 500px;
+}
+.cert {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px;
+}
+.shif {
+    margin-left: 100px;
+}
+.adjus {
+    margin-left: 280px;
+}
+.shift {
+    margin-left: 100px;
+}
+.adjust {
+    margin-left: 200px;
+}
+.article {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 30px;
+    width: 100vw;
+}
+.webs {
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
+    width: 100px;
+}
+.we {
+    text-align: center;
+}
+.web {
+    font-weight: 1500px;
+    font-size: 20px;
+}
+.stuffs {
+ word-break: break-all;
+ word-wrap: break-word;
+    background-color: white;
+    width: 415px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    height: 400px;
+    /* margin-left: 900px; */
+    
+}
+.stffs {
+    word-break: break-all;
+    word-wrap: break-word;
+       background-color: white;
+       width: 415px;
+       border: 3px solid white;
+       border-radius: 30px;
+       padding: 20px;
+       height: 400px;
+       
+   }
+.stufs {
+    word-break: break-all;
+    word-wrap: break-word;
+       background-color: white;
+       width: 415px;
+       border: 3px solid white;
+       border-radius: 30px;
+       padding: 20px;
+       /* margin-left: 500px; */
+       height: 370px;
+       
+   }
+.ele {
+    transition: 10s;
+}
+.half {
+    height: 600px;
+    width: 100vw;
+    background-image: url(pexels-eberhard-grossgasteiger-12527029.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fix {
+    display: none;
+}
+.jub {
+    margin-top: 300px;
+}
+.thd {
+    margin-top: 100px;
+}
+.sec {
+    display: flex;
+    flex-direction: row;
+}
+.clou {
+    right: 0;
+    position: absolute;
+}
+.footer {
+    height: 500px;
+}
+@media screen and (max-width:768px) {
+   .clou {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+    width: 500px;
+    height: 800px;
+   }
+   .jub {
+       margin-top: 30px;
+       padding: 10px;
+   }
+   .thd {
+    margin-top: 0;
+    padding: 10px;
+   }
+    .info {
+        display: none;
+    }
+    .ele {
+        display: none;
+    }
+    .image {
+        display: flex;
+    }
+    .world {
+        margin-top: 50px;
+    }
+    .fix {
+        display: flex;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .hero {
+        font-size: 13px;
+        font-variant: small-caps;
+    }
+    .story {
+        padding: 10px;
+    }
+    .afterhero {
+        display: flex;
+        height: 900px;
+        flex-direction: column;
+    }
+    .world {
+        margin-bottom: 12px;
+        padding: 30px;
+    }
+    .fl {
+        margin-top: -90px;
+        padding: 30px;
+        margin-bottom: 30px;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+    .skills {
+        text-align: center;
+        margin-left: 20px;
+        padding: 3px;
+    }
+    .cate {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .adjust {
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+    }
+    .adjus {
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+    }
+    .shif {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    .shift {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    .cert {
+        margin: 5px;
+    }
+    .md {
+        width: 120px;
+    }
+    .mod {
+        width: 200px;
+    }
+    .mode {
+        width: 350px;
+    }
+    .article {
+        display: flex;
+        flex-direction: column;
+        
+        
+        height: 1500px;
+    }
+    .stffs {
+        margin-top: 0px;
+        width: 300px;
+    }
+    .stuffs {
+        width: 300px;
+    }
+}
